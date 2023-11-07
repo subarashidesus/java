@@ -1,0 +1,17 @@
+@startuml
+class cancion{
+   - nombre: String
+   - cantante: String
+   - genero: char
+   - duracion: double
+     
+}
+
+class libro{
+   - titulo: String
+   - stock: int
+   - autor: String
+   - precio: double
+   + ISBN: char
+}
+@enduml
